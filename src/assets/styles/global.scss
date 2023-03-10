@@ -1,0 +1,78 @@
+//页面主题颜色
+$BCcolor: #eee;
+//字体颜色
+$FColor: #333;
+
+html,
+body,
+#App {
+    background-color: $BCcolor;
+    color: $FColor;
+    min-width: 1200px;
+    min-height: 100%;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 16px;
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans CJK SC, WenQuanYi Micro Hei, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-variant-ligatures: common-ligatures;
+    line-height: 1.15;
+}
+
+a,
+abbr,
+address,
+blockquote,
+body,
+caption,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+iframe,
+img,
+ins,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+small,
+span,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+ul {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+img {
+    -webkit-user-drag: none;
+}
